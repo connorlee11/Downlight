@@ -1,0 +1,32 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1852808225	Playing			\Default Work Unit\Playing	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Playing			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	823877562	LightBrighten			\Default Work Unit\LightBrighten	
+	988953028	SFXVolume			\Default Work Unit\SFXVolume	
+	2346531308	MusicVolume			\Default Work Unit\MusicVolume	
+	4158285989	GameOver			\Default Work Unit\GameOver	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Ambience	
+	348963605	Reverb			\Default Work Unit\Reverb	
+	937959045	UI Sounds			\Default Work Unit\UI Sounds	
+	1502772432	SFX Bus			\Default Work Unit\SFX Bus	
+	2940432316	Stingers			\Default Work Unit\Stingers	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3995960537	Main_Reverb			\Default Work Unit\Reverb\Main_Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	753631227	Sewer_Verb	Wwise RoomVerb			
+	3038837519	Large_Enemy	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E24FC806-3B9F-4486-AC24-B359D9534703}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E24FC806-3B9F-4486-AC24-B359D9534703}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{035D8A94-E7A2-4F17-A4A5-BFC5D7C42EA9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="FlashLight_Brighten" ID="{E2671602-2DDF-4055-9CD7-B51F4766612E}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GameOver_Music" ID="{0C4358C3-4CE3-41DA-ADB3-4449558810B8}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Small_Enemy_Death" ID="{24AEE62C-9F08-41E5-A2DE-B318C839933B}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Secret_Door_Open" ID="{C48B2BAC-45F4-4231-9197-F57532A2C753}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Crow_Caw" ID="{23A2D860-F261-427F-ABC7-6641CC9DFF8F}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_All" ID="{CA7FEA66-459B-434C-9A99-FAD95244DA75}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_InGameMusic_Resume" ID="{76025867-3814-436A-B967-00320519EF38}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Large_Enemy_Attack" ID="{4B8F3D22-7ACC-437F-8E29-F10DA987828A}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Healing_Light" ID="{A040B13D-C04C-43A3-8E4A-8EF69196F3B9}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rats" ID="{0DBF5C4E-917E-449F-A6ED-DD1E37995486}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footsteps" ID="{5702746D-A995-44A1-8BE9-26A240BBC5E7}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Large_Enemy_Grunts" ID="{F4355969-3181-44B5-81CB-E174AA99A0C0}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Vocal_Cues" ID="{900B8BAC-41F4-457D-8FE0-6277E2CA0569}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Spawn_Sound" ID="{096E4F81-0BB4-45AF-A88A-8129DC97F9F5}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Flashlight_Break" ID="{0374ED9D-B12E-45BF-984D-64A7A9D5891A}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gun_Shoot" ID="{A6FE1908-8270-4635-BE9D-A224460BB16A}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Large_Enemy_Death" ID="{C6D4F709-49AD-471F-AF95-E73C9C7F3974}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Crying_Girl" ID="{87D6EF3E-95C3-4753-B49C-129A62ADE12B}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Game_Over" ID="{17025586-62A4-4765-9F9F-BE65AE96D027}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ammo_Pickup" ID="{1119BDB1-6448-4895-A811-47F1964A1C3A}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Hover_Sound" ID="{D79DD955-5417-4A05-9558-A721B1170F6D}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Flashlight_Toggle" ID="{0E8CCE31-6504-4A0E-82DC-30A5998F84B7}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sewer_Ambience" ID="{20082570-926B-4A52-84C5-8A3C99347271}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Out_Of_Ammo" ID="{F5E9E31A-7F34-4B60-964E-69210CF92DE6}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Small Enemy" ID="{A090D582-CA97-4CF3-9937-682D769F8806}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wind_Ambience" ID="{D08BD723-5714-4D01-AF04-4E74B4944BD4}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Hit" ID="{D0342B06-1BEC-4DDF-97A1-F33F8E4BD1B8}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Large_Enemy_Grunts_Stop" ID="{133DBE23-0CD9-4DEE-90DF-FCC4C765F495}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_InGameMusic" ID="{E482EAC7-EBDA-4E2D-B457-C0470086BC51}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wave_Change" ID="{995C5CBE-17BB-4E78-B9AE-7DD57250298D}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_InGameMusic_Pause" ID="{465786C7-36B9-4F65-80E4-412C1B2CC767}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Small_Enemy_Laugh" ID="{8FA5FC8D-D8C1-4F71-BF95-AC9CC01E29AD}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Main_Menu" ID="{F5C63AA0-7B44-4FBE-80CD-5278689A25D4}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Large_Enemy_Footsteps" ID="{DDD592CA-89C0-4FF1-94E9-26DDD726D33F}" WorkUnitID="{0475D68E-3254-4798-9F17-3D02038CD3DA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

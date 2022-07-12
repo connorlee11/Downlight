@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C7B94438-1C2D-49DC-B44B-6AE5A43C8ADD}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{C7B94438-1C2D-49DC-B44B-6AE5A43C8ADD}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Sound_Fade" ID="{3431CAB3-7605-4081-9404-6DD0624F0DE3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="10"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="HealingLight_Fade" ID="{99BE7ADD-65D0-4E90-A09A-6AFB682D16AB}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="3"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="10"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="GameOver" ID="{75D530FC-5B6A-4D38-9270-51C21415C5CB}">
+					<PropertyList>
+						<Property Name="FilterTimeUp" Type="Real64" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="10"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MainFade" ID="{B9EB4505-E614-41F3-B1B0-3B836C0F6FB7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="10"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MusicVolume" ID="{053EA633-FC62-4B7D-816E-57EBFDA8452E}"/>
+				<GameParameter Name="SFXVolume" ID="{770D8910-B68F-4185-BDDE-494B299EAADF}"/>
+				<GameParameter Name="LightBrighten" ID="{F56A3A07-638F-426F-A194-BDE5C0E41CEF}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="2"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="4"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Distance" ID="{D3B259C2-4280-465E-8065-F52A89A874D1}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

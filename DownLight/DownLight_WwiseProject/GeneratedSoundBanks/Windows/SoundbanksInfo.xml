@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3601027857">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="3995960537" Name="Main_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Reverb\Main_Reverb"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="823877562" Name="LightBrighten" ObjectPath="\Game Parameters\Default Work Unit\LightBrighten"/>
+				<GameParameter Id="988953028" Name="SFXVolume" ObjectPath="\Game Parameters\Default Work Unit\SFXVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
+				<GameParameter Id="4158285989" Name="GameOver" ObjectPath="\Game Parameters\Default Work Unit\GameOver"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1524265125">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4253579710" Name="Ammo_Pickup" ObjectPath="\Events\Default Work Unit\Interactables\Ammo_Pickup" DurationType="OneShot" DurationMin="0.536836" DurationMax="0.977507">
+					<IncludedMemoryFiles>
+						<File Id="141929671" Language="SFX">
+							<ShortName>Reload_V2_01.wav</ShortName>
+							<Path>SFX\Reload_V2_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1014441594" Language="SFX">
+							<ShortName>Reload_V2_02.wav</ShortName>
+							<Path>SFX\Reload_V2_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4262893814" Name="Crow_Caw" ObjectPath="\Events\Default Work Unit\Ambience\Main_Menu\Crow_Caw" DurationType="OneShot" DurationMin="0.388997" DurationMax="0.515166">
+					<IncludedMemoryFiles>
+						<File Id="239821706" Language="SFX">
+							<ShortName>Crow_02.wav</ShortName>
+							<Path>SFX\Crow_02_10C4C929.wem</Path>
+						</File>
+						<File Id="397126296" Language="SFX">
+							<ShortName>Crow_01.wav</ShortName>
+							<Path>SFX\Crow_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="655777854" Name="Crying_Girl" ObjectPath="\Events\Default Work Unit\Enemies\Crying_Girl" MaxAttenuation="15." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="999530911" Language="SFX">
+							<ShortName>CryFemale_SFXB.2023.wav</ShortName>
+							<Path>SFX\CryFemale_SFXB.2023_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="88712019" Name="Flashlight_Break" ObjectPath="\Events\Default Work Unit\Player\Flashlight_Break" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2385984939" Name="FlashLight_Brighten" ObjectPath="\Events\Default Work Unit\Player\FlashLight_Brighten" DurationType="OneShot" DurationMin="2.265737" DurationMax="2.265737">
+					<IncludedMemoryFiles>
+						<File Id="617912920" Language="SFX">
+							<ShortName>FlashLight_Brighten.wav</ShortName>
+							<Path>SFX\FlashLight_Brighten_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="103142110" Name="Flashlight_Toggle" ObjectPath="\Events\Default Work Unit\Player\Flashlight_Toggle" DurationType="OneShot" DurationMin="0.037574" DurationMax="0.044422">
+					<IncludedMemoryFiles>
+						<File Id="10200255" Language="SFX">
+							<ShortName>Flashlight_OnClick_Final_02.wav</ShortName>
+							<Path>SFX\Flashlight_OnClick_Final_02_10C4C929.wem</Path>
+						</File>
+						<File Id="231923219" Language="SFX">
+							<ShortName>Flashlight_OnClick_Final_03.wav</ShortName>
+							<Path>SFX\Flashlight_OnClick_Final_03_10C4C929.wem</Path>
+						</File>
+						<File Id="696586800" Language="SFX">
+							<ShortName>Flashlight_OnClick_Final_01.wav</ShortName>
+							<Path>SFX\Flashlight_OnClick_Final_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1432716332" Name="Game_Over" ObjectPath="\Events\Default Work Unit\Stingers\Game_Over" DurationType="OneShot" DurationMin="5.34712" DurationMax="5.34712">
+					<IncludedMemoryFiles>
+						<File Id="997529174" Language="SFX">
+							<ShortName>GameOver_Stinger_F.wav</ShortName>
+							<Path>SFX\GameOver_Stinger_F_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="816370673" Name="GameOver_Music" ObjectPath="\Events\Default Work Unit\Music\GameOver_Music" DurationType="OneShot" DurationMin="16." DurationMax="16.">
+					<IncludedMemoryFiles>
+						<File Id="783892982" Language="SFX">
+							<ShortName>GameOver_Music.wav</ShortName>
+							<Path>SFX\GameOver_Music_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3498111913" Name="Gun_Shoot" ObjectPath="\Events\Default Work Unit\Player\Gun_Shoot" DurationType="OneShot" DurationMin="1.582562" DurationMax="1.582562">
+					<IncludedMemoryFiles>
+						<File Id="415694696" Language="SFX">
+							<ShortName>Gunshot_F.wav</ShortName>
+							<Path>SFX\Gunshot_F_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2602049768" Name="Healing_Light" ObjectPath="\Events\Default Work Unit\Healing_Light" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="409198728" Language="SFX">
+							<ShortName>Healing_Sound_bip_1.wav</ShortName>
+							<Path>SFX\Healing_Sound_bip_1_C5579977.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4250807398" Name="Large_Enemy_Attack" ObjectPath="\Events\Default Work Unit\Enemies\Large Enemy\Large_Enemy_Attack" DurationType="OneShot" DurationMin="1.187868" DurationMax="1.187868">
+					<IncludedMemoryFiles>
+						<File Id="168169077" Language="SFX">
+							<ShortName>BigEnemy_Attack.wav</ShortName>
+							<Path>SFX\BigEnemy_Attack_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2975941020" Name="Large_Enemy_Death" ObjectPath="\Events\Default Work Unit\Enemies\Large Enemy\Large_Enemy_Death" DurationType="OneShot" DurationMin="1.298918" DurationMax="1.765173">
+					<IncludedMemoryFiles>
+						<File Id="58344488" Language="SFX">
+							<ShortName>LargeEnemy_Death_T1.wav</ShortName>
+							<Path>SFX\LargeEnemy_Death_T1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1520976743" Name="Large_Enemy_Footsteps" ObjectPath="\Events\Default Work Unit\Enemies\Large Enemy\Large_Enemy_Footsteps" DurationType="OneShot" DurationMin="0.931331" DurationMax="1.213072">
+					<IncludedMemoryFiles>
+						<File Id="123198027" Language="SFX">
+							<ShortName>LargeEnemy_Footsteps_V2_01.wav</ShortName>
+							<Path>SFX\LargeEnemy_Footsteps_V2_01_10C4C929.wem</Path>
+						</File>
+						<File Id="627043617" Language="SFX">
+							<ShortName>LargeEnemy_Footsteps_V2_03.wav</ShortName>
+							<Path>SFX\LargeEnemy_Footsteps_V2_03_10C4C929.wem</Path>
+						</File>
+						<File Id="970301744" Language="SFX">
+							<ShortName>LargeEnemy_Footsteps_V2_02.wav</ShortName>
+							<Path>SFX\LargeEnemy_Footsteps_V2_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2465880979" Name="Large_Enemy_Grunts" ObjectPath="\Events\Default Work Unit\Enemies\Large Enemy\Large_Enemy_Grunts" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="146135435" Language="SFX">
+							<ShortName>BigEnemy_Voice_02.wav</ShortName>
+							<Path>SFX\BigEnemy_Voice_02_10C4C929.wem</Path>
+						</File>
+						<File Id="302496636" Language="SFX">
+							<ShortName>BigEnemy_NoVoice_01.wav</ShortName>
+							<Path>SFX\BigEnemy_NoVoice_01_10C4C929.wem</Path>
+						</File>
+						<File Id="364846511" Language="SFX">
+							<ShortName>BigEnemy_NoVoice_04.wav</ShortName>
+							<Path>SFX\BigEnemy_NoVoice_04_10C4C929.wem</Path>
+						</File>
+						<File Id="516612402" Language="SFX">
+							<ShortName>BigEnemy_Voice_03.wav</ShortName>
+							<Path>SFX\BigEnemy_Voice_03_10C4C929.wem</Path>
+						</File>
+						<File Id="681894565" Language="SFX">
+							<ShortName>BigEnemy_NoVoice_02.wav</ShortName>
+							<Path>SFX\BigEnemy_NoVoice_02_10C4C929.wem</Path>
+						</File>
+						<File Id="739677818" Language="SFX">
+							<ShortName>BigEnemy_Voice_01.wav</ShortName>
+							<Path>SFX\BigEnemy_Voice_01_10C4C929.wem</Path>
+						</File>
+						<File Id="956901904" Language="SFX">
+							<ShortName>BigEnemy_NoVoice_03.wav</ShortName>
+							<Path>SFX\BigEnemy_NoVoice_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1069374550" Language="SFX">
+							<ShortName>BigEnemy_Loop.wav</ShortName>
+							<Path>SFX\BigEnemy_Loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2088343134" Name="Large_Enemy_Grunts_Stop" ObjectPath="\Events\Default Work Unit\Enemies\Large Enemy\Large_Enemy_Grunts_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1371319734" Name="Out_Of_Ammo" ObjectPath="\Events\Default Work Unit\Player\Out_Of_Ammo" DurationType="OneShot" DurationMin="0.250045" DurationMax="0.250045">
+					<IncludedMemoryFiles>
+						<File Id="141330022" Language="SFX">
+							<ShortName>OutOfAmmo_F1.wav</ShortName>
+							<Path>SFX\OutOfAmmo_F1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3799629626" Name="Play_InGameMusic" ObjectPath="\Events\Default Work Unit\Music\Play_InGameMusic" DurationType="OneShot" DurationMin="1110.60022" DurationMax="1110.60022">
+					<IncludedMemoryFiles>
+						<File Id="368039709" Language="SFX">
+							<ShortName>Bass.wav</ShortName>
+							<Path>SFX\Bass_D79FB2B7.wem</Path>
+						</File>
+						<File Id="455758981" Language="SFX">
+							<ShortName>Percussion.wav</ShortName>
+							<Path>SFX\Percussion_D79FB2B7.wem</Path>
+						</File>
+						<File Id="594658176" Language="SFX">
+							<ShortName>Arp_Strings.wav</ShortName>
+							<Path>SFX\Arp_Strings_D79FB2B7.wem</Path>
+						</File>
+						<File Id="883460431" Language="SFX">
+							<ShortName>Strings _Test.wav</ShortName>
+							<Path>SFX\Strings _Test_D79FB2B7.wem</Path>
+						</File>
+						<File Id="964351560" Language="SFX">
+							<ShortName>Synth_Test.wav</ShortName>
+							<Path>SFX\Synth_Test_D79FB2B7.wem</Path>
+						</File>
+						<File Id="971748959" Language="SFX">
+							<ShortName>DownLight_InGame_T1.wav</ShortName>
+							<Path>SFX\DownLight_InGame_T1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1000178330" Language="SFX">
+							<ShortName>Guitar.wav</ShortName>
+							<Path>SFX\Guitar_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1031864434" Language="SFX">
+							<ShortName>Chior.wav</ShortName>
+							<Path>SFX\Chior_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="197586729" Name="Play_InGameMusic_Pause" ObjectPath="\Events\Default Work Unit\Music\Play_InGameMusic_Pause" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3762008648" Name="Play_InGameMusic_Resume" ObjectPath="\Events\Default Work Unit\Music\Play_InGameMusic_Resume" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3306210749" Name="Play_Main_Menu" ObjectPath="\Events\Default Work Unit\Music\Play_Main_Menu" DurationType="OneShot" DurationMin="91." DurationMax="91.">
+					<IncludedMemoryFiles>
+						<File Id="626613179" Language="SFX">
+							<ShortName>DownLight_MainMenu_T1.wav</ShortName>
+							<Path>SFX\DownLight_MainMenu_T1_E532FC3D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1730208058" Name="Player_Footsteps" ObjectPath="\Events\Default Work Unit\Player\Player_Footsteps" DurationType="OneShot" DurationMin="0.31888" DurationMax="0.595367">
+					<IncludedMemoryFiles>
+						<File Id="44963678" Language="SFX">
+							<ShortName>PlayerFootsteps_Cloth_03.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Cloth_03_10C4C929.wem</Path>
+						</File>
+						<File Id="59913664" Language="SFX">
+							<ShortName>PlayerFootsteps_Cloth_01.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Cloth_01_10C4C929.wem</Path>
+						</File>
+						<File Id="109779909" Language="SFX">
+							<ShortName>PlayerFootsteps_Cloth_02.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Cloth_02_10C4C929.wem</Path>
+						</File>
+						<File Id="133284972" Language="SFX">
+							<ShortName>PlayerFootsteps_Main_04.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Main_04_10C4C929.wem</Path>
+						</File>
+						<File Id="336908657" Language="SFX">
+							<ShortName>PlayerFootsteps_Wet_02.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Wet_02_10C4C929.wem</Path>
+						</File>
+						<File Id="384425789" Language="SFX">
+							<ShortName>PlayerFootsteps_Main_02.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Main_02_10C4C929.wem</Path>
+						</File>
+						<File Id="510772159" Language="SFX">
+							<ShortName>PlayerFootsteps_Cloth_05.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Cloth_05_10C4C929.wem</Path>
+						</File>
+						<File Id="514424830" Language="SFX">
+							<ShortName>PlayerFootsteps_Wet_03.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Wet_03_10C4C929.wem</Path>
+						</File>
+						<File Id="691095402" Language="SFX">
+							<ShortName>PlayerFootsteps_Main_03.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Main_03_10C4C929.wem</Path>
+						</File>
+						<File Id="745451864" Language="SFX">
+							<ShortName>PlayerFootsteps_Main_05.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Main_05_10C4C929.wem</Path>
+						</File>
+						<File Id="827714307" Language="SFX">
+							<ShortName>PlayerFootsteps_Cloth_04.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Cloth_04_10C4C929.wem</Path>
+						</File>
+						<File Id="835078885" Language="SFX">
+							<ShortName>PlayerFootsteps_Wet_01.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Wet_01_10C4C929.wem</Path>
+						</File>
+						<File Id="966295376" Language="SFX">
+							<ShortName>PlayerFootsteps_Main_01.wav</ShortName>
+							<Path>SFX\PlayerFootsteps_Main_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="871813740" Name="Player_Hit" ObjectPath="\Events\Default Work Unit\Player\Player_Hit" DurationType="OneShot" DurationMin="1.104149" DurationMax="1.353881">
+					<IncludedMemoryFiles>
+						<File Id="544086732" Language="SFX">
+							<ShortName>Player_Hit.wav</ShortName>
+							<Path>SFX\Player_Hit_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3395647519" Name="Player_Vocal_Cues" ObjectPath="\Events\Default Work Unit\Player\Player_Vocal_Cues" DurationType="OneShot" DurationMin="0." DurationMax="2.938209">
+					<IncludedMemoryFiles>
+						<File Id="283923273" Language="SFX">
+							<ShortName>Player_Vocal_Cues_04.wav</ShortName>
+							<Path>SFX\Player_Vocal_Cues_04_10C4C929.wem</Path>
+						</File>
+						<File Id="330329453" Language="SFX">
+							<ShortName>Player_Vocal_Cues_01.wav</ShortName>
+							<Path>SFX\Player_Vocal_Cues_01_10C4C929.wem</Path>
+						</File>
+						<File Id="540756320" Language="SFX">
+							<ShortName>Player_Vocal_Cues_02.wav</ShortName>
+							<Path>SFX\Player_Vocal_Cues_02_10C4C929.wem</Path>
+						</File>
+						<File Id="615563244" Language="SFX">
+							<ShortName>Player_Vocal_Cues_03.wav</ShortName>
+							<Path>SFX\Player_Vocal_Cues_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2227957873" Name="Rats" ObjectPath="\Events\Default Work Unit\Ambience\Rats" DurationType="OneShot" DurationMin="0." DurationMax="3.135261">
+					<IncludedMemoryFiles>
+						<File Id="333138975" Language="SFX">
+							<ShortName>Rat_Stinger_F_01.wav</ShortName>
+							<Path>SFX\Rat_Stinger_F_01_10C4C929.wem</Path>
+						</File>
+						<File Id="419620355" Language="SFX">
+							<ShortName>Rat_Stinger_F_02.wav</ShortName>
+							<Path>SFX\Rat_Stinger_F_02_10C4C929.wem</Path>
+						</File>
+						<File Id="477350671" Language="SFX">
+							<ShortName>Rat_Stinger_F_03.wav</ShortName>
+							<Path>SFX\Rat_Stinger_F_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1071149357" Language="SFX">
+							<ShortName>Rat_Stinger_F_04.wav</ShortName>
+							<Path>SFX\Rat_Stinger_F_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1975887235" Name="Secret_Door_Open" ObjectPath="\Events\Default Work Unit\Stingers\Secret_Door_Open" DurationType="OneShot" DurationMin="5.218503" DurationMax="5.218503">
+					<IncludedMemoryFiles>
+						<File Id="911734441" Language="SFX">
+							<ShortName>Secret_Door_Open.wav</ShortName>
+							<Path>SFX\Secret_Door_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="884037492" Name="Sewer_Ambience" ObjectPath="\Events\Default Work Unit\Ambience\Level_01\Sewer_Ambience" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="349372000" Language="SFX">
+							<ShortName>Sewer_Ambience_New_F_01.wav</ShortName>
+							<Path>SFX\Sewer_Ambience_New_F_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="517805850" Name="Small_Enemy_Attack" ObjectPath="\Events\Default Work Unit\Enemies\Small Enemy\Small_Enemy_Attack" DurationType="OneShot" DurationMin="0.829729" DurationMax="0.988431">
+					<IncludedMemoryFiles>
+						<File Id="61167422" Language="SFX">
+							<ShortName>Small_Enemy_Attack_Main_01.wav</ShortName>
+							<Path>SFX\Small_Enemy_Attack_Main_01_10C4C929.wem</Path>
+						</File>
+						<File Id="120936648" Language="SFX">
+							<ShortName>Small_Enemy_Attack_Grunt_03.wav</ShortName>
+							<Path>SFX\Small_Enemy_Attack_Grunt_03_10C4C929.wem</Path>
+						</File>
+						<File Id="243238263" Language="SFX">
+							<ShortName>Small_Enemy_Attack_Grunt_02.wav</ShortName>
+							<Path>SFX\Small_Enemy_Attack_Grunt_02_10C4C929.wem</Path>
+						</File>
+						<File Id="281326603" Language="SFX">
+							<ShortName>Small_Enemy_Attack_Grunt_01.wav</ShortName>
+							<Path>SFX\Small_Enemy_Attack_Grunt_01_10C4C929.wem</Path>
+						</File>
+						<File Id="793120761" Language="SFX">
+							<ShortName>Small_Enemy_Attack_Grunt_04.wav</ShortName>
+							<Path>SFX\Small_Enemy_Attack_Grunt_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3897667184" Name="Small_Enemy_Death" ObjectPath="\Events\Default Work Unit\Enemies\Small Enemy\Small_Enemy_Death" DurationType="OneShot" DurationMin="2.622029" DurationMax="4.19435">
+					<IncludedMemoryFiles>
+						<File Id="34169155" Language="SFX">
+							<ShortName>SmallEnemy_Death_Main_02.wav</ShortName>
+							<Path>SFX\SmallEnemy_Death_Main_02_10C4C929.wem</Path>
+						</File>
+						<File Id="146852372" Language="SFX">
+							<ShortName>SmallEnemy_Death_Breaths_03.wav</ShortName>
+							<Path>SFX\SmallEnemy_Death_Breaths_03_10C4C929.wem</Path>
+						</File>
+						<File Id="235353200" Language="SFX">
+							<ShortName>SmallEnemy_Death_Main_01.wav</ShortName>
+							<Path>SFX\SmallEnemy_Death_Main_01_10C4C929.wem</Path>
+						</File>
+						<File Id="448140753" Language="SFX">
+							<ShortName>SmallEnemy_Death_Main_03.wav</ShortName>
+							<Path>SFX\SmallEnemy_Death_Main_03_10C4C929.wem</Path>
+						</File>
+						<File Id="509852096" Language="SFX">
+							<ShortName>SmallEnemy_Death_Breaths_02.wav</ShortName>
+							<Path>SFX\SmallEnemy_Death_Breaths_02_10C4C929.wem</Path>
+						</File>
+						<File Id="639095602" Language="SFX">
+							<ShortName>SmallEnemy_Death_Breaths_01.wav</ShortName>
+							<Path>SFX\SmallEnemy_Death_Breaths_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="447414835" Name="Small_Enemy_Footsteps" ObjectPath="\Events\Default Work Unit\Enemies\Small Enemy\Small_Enemy_Footsteps" DurationType="OneShot" DurationMin="0.252542" DurationMax="0.48237">
+					<IncludedMemoryFiles>
+						<File Id="73555761" Language="SFX">
+							<ShortName>SmallEnemy_Footsteps_F_02.wav</ShortName>
+							<Path>SFX\SmallEnemy_Footsteps_F_02_10C4C929.wem</Path>
+						</File>
+						<File Id="158183363" Language="SFX">
+							<ShortName>SmallEnemy_Footsteps_F_05.wav</ShortName>
+							<Path>SFX\SmallEnemy_Footsteps_F_05_10C4C929.wem</Path>
+						</File>
+						<File Id="418192083" Language="SFX">
+							<ShortName>SmallEnemy_Footsteps_F_03.wav</ShortName>
+							<Path>SFX\SmallEnemy_Footsteps_F_03_10C4C929.wem</Path>
+						</File>
+						<File Id="503625794" Language="SFX">
+							<ShortName>SmallEnemy_Footsteps_F_01.wav</ShortName>
+							<Path>SFX\SmallEnemy_Footsteps_F_01_10C4C929.wem</Path>
+						</File>
+						<File Id="524070183" Language="SFX">
+							<ShortName>SmallEnemy_Footsteps_F_04.wav</ShortName>
+							<Path>SFX\SmallEnemy_Footsteps_F_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3230452249" Name="Small_Enemy_Laugh" ObjectPath="\Events\Default Work Unit\Enemies\Small Enemy\Small_Enemy_Laugh" DurationType="OneShot" DurationMin="0." DurationMax="22.890471">
+					<IncludedMemoryFiles>
+						<File Id="175464974" Language="SFX">
+							<ShortName>SmallEnemy_Laugh_02.wav</ShortName>
+							<Path>SFX\SmallEnemy_Laugh_02_10C4C929.wem</Path>
+						</File>
+						<File Id="461217558" Language="SFX">
+							<ShortName>SmallEnemy_Laugh_04.wav</ShortName>
+							<Path>SFX\SmallEnemy_Laugh_04_10C4C929.wem</Path>
+						</File>
+						<File Id="497962356" Language="SFX">
+							<ShortName>SmallEnemy_Laugh_05.wav</ShortName>
+							<Path>SFX\SmallEnemy_Laugh_05_10C4C929.wem</Path>
+						</File>
+						<File Id="935692605" Language="SFX">
+							<ShortName>SmallEnemy_Laugh_01.wav</ShortName>
+							<Path>SFX\SmallEnemy_Laugh_01_10C4C929.wem</Path>
+						</File>
+						<File Id="972283037" Language="SFX">
+							<ShortName>SmallEnemy_Laugh_03.wav</ShortName>
+							<Path>SFX\SmallEnemy_Laugh_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3561417964" Name="Small_Enemy_Laugh_Stop" ObjectPath="\Events\Default Work Unit\Enemies\Small Enemy\Small_Enemy_Laugh_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2234746274" Name="Spawn_Sound" ObjectPath="\Events\Default Work Unit\Enemies\Spawn_Sound" DurationType="OneShot" DurationMin="2.821606" DurationMax="3.667635">
+					<IncludedMemoryFiles>
+						<File Id="338695702" Language="SFX">
+							<ShortName>Male_Scream_01.wav</ShortName>
+							<Path>SFX\Male_Scream_01_10C4C929.wem</Path>
+						</File>
+						<File Id="424083139" Language="SFX">
+							<ShortName>Female_Scream_01.wav</ShortName>
+							<Path>SFX\Female_Scream_01_10C4C929.wem</Path>
+						</File>
+						<File Id="753782055" Language="SFX">
+							<ShortName>Female_Scream_02.wav</ShortName>
+							<Path>SFX\Female_Scream_02_10C4C929.wem</Path>
+						</File>
+						<File Id="767726135" Language="SFX">
+							<ShortName>Male_Scream_02.wav</ShortName>
+							<Path>SFX\Male_Scream_02_10C4C929.wem</Path>
+						</File>
+						<File Id="909923145" Language="SFX">
+							<ShortName>Spawn_Main.wav</ShortName>
+							<Path>SFX\Spawn_Main_10C4C929.wem</Path>
+						</File>
+						<File Id="914296452" Language="SFX">
+							<ShortName>Male_Scream_03.wav</ShortName>
+							<Path>SFX\Male_Scream_03_10C4C929.wem</Path>
+						</File>
+						<File Id="978542759" Language="SFX">
+							<ShortName>Female_Scream_03.wav</ShortName>
+							<Path>SFX\Female_Scream_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2855972596" Name="UI_Hover_Sound" ObjectPath="\Events\Default Work Unit\UI\UI_Hover_Sound" DurationType="OneShot" DurationMin="2.479184" DurationMax="2.519796">
+					<IncludedMemoryFiles>
+						<File Id="67396298" Language="SFX">
+							<ShortName>UI_Breath_Part_03.wav</ShortName>
+							<Path>SFX\UI_Breath_Part_03_10C4C929.wem</Path>
+						</File>
+						<File Id="121940598" Language="SFX">
+							<ShortName>UI_Breath_Part_04.wav</ShortName>
+							<Path>SFX\UI_Breath_Part_04_10C4C929.wem</Path>
+						</File>
+						<File Id="152770591" Language="SFX">
+							<ShortName>UI_Breath_Part_02.wav</ShortName>
+							<Path>SFX\UI_Breath_Part_02_10C4C929.wem</Path>
+						</File>
+						<File Id="255269076" Language="SFX">
+							<ShortName>UI_Breath_Part_01.wav</ShortName>
+							<Path>SFX\UI_Breath_Part_01_10C4C929.wem</Path>
+						</File>
+						<File Id="484372149" Language="SFX">
+							<ShortName>UI_Main_Part_01.wav</ShortName>
+							<Path>SFX\UI_Main_Part_01_10C4C929.wem</Path>
+						</File>
+						<File Id="509127713" Language="SFX">
+							<ShortName>UI_Main_Part_04.wav</ShortName>
+							<Path>SFX\UI_Main_Part_04_10C4C929.wem</Path>
+						</File>
+						<File Id="755612802" Language="SFX">
+							<ShortName>UI_Main_Part_02.wav</ShortName>
+							<Path>SFX\UI_Main_Part_02_10C4C929.wem</Path>
+						</File>
+						<File Id="909813545" Language="SFX">
+							<ShortName>UI_Main_Part_03.wav</ShortName>
+							<Path>SFX\UI_Main_Part_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="921611381" Name="Wave_Change" ObjectPath="\Events\Default Work Unit\Stingers\Wave_Change" DurationType="OneShot" DurationMin="6.006757" DurationMax="6.006757">
+					<IncludedMemoryFiles>
+						<File Id="687504304" Language="SFX">
+							<ShortName>RoundChange_Stinger_1.wav</ShortName>
+							<Path>SFX\RoundChange_Stinger_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2737219330" Name="Wind_Ambience" ObjectPath="\Events\Default Work Unit\Ambience\Main_Menu\Wind_Ambience" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="5294680" Language="SFX">
+							<ShortName>Wind_Ambience_Loop.wav</ShortName>
+							<Path>SFX\Wind_Ambience_Loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1240670792" Name="Distance" ObjectPath="\Game Parameters\Default Work Unit\Distance"/>
+				<GameParameter Id="2468440487" Name="Sound_Fade" ObjectPath="\Game Parameters\Default Work Unit\Sound_Fade"/>
+				<GameParameter Id="2788398400" Name="HealingLight_Fade" ObjectPath="\Game Parameters\Default Work Unit\HealingLight_Fade"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

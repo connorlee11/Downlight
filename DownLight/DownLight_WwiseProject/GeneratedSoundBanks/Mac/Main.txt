@@ -1,0 +1,160 @@
+Event	ID	Name			Wwise Object Path	Notes
+	88712019	Flashlight_Break			\Default Work Unit\Player\Flashlight_Break	
+	103142110	Flashlight_Toggle			\Default Work Unit\Player\Flashlight_Toggle	
+	197586729	Play_InGameMusic_Pause			\Default Work Unit\Music\Play_InGameMusic_Pause	
+	447414835	Small_Enemy_Footsteps			\Default Work Unit\Enemies\Small Enemy\Small_Enemy_Footsteps	
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	517805850	Small_Enemy_Attack			\Default Work Unit\Enemies\Small Enemy\Small_Enemy_Attack	
+	655777854	Crying_Girl			\Default Work Unit\Enemies\Crying_Girl	
+	816370673	GameOver_Music			\Default Work Unit\Music\GameOver_Music	
+	871813740	Player_Hit			\Default Work Unit\Player\Player_Hit	
+	884037492	Sewer_Ambience			\Default Work Unit\Ambience\Level_01\Sewer_Ambience	
+	921611381	Wave_Change			\Default Work Unit\Stingers\Wave_Change	
+	1371319734	Out_Of_Ammo			\Default Work Unit\Player\Out_Of_Ammo	
+	1432716332	Game_Over			\Default Work Unit\Stingers\Game_Over	
+	1520976743	Large_Enemy_Footsteps			\Default Work Unit\Enemies\Large Enemy\Large_Enemy_Footsteps	
+	1730208058	Player_Footsteps			\Default Work Unit\Player\Player_Footsteps	
+	1975887235	Secret_Door_Open			\Default Work Unit\Stingers\Secret_Door_Open	
+	2088343134	Large_Enemy_Grunts_Stop			\Default Work Unit\Enemies\Large Enemy\Large_Enemy_Grunts_Stop	
+	2227957873	Rats			\Default Work Unit\Ambience\Rats	
+	2234746274	Spawn_Sound			\Default Work Unit\Enemies\Spawn_Sound	
+	2385984939	FlashLight_Brighten			\Default Work Unit\Player\FlashLight_Brighten	
+	2465880979	Large_Enemy_Grunts			\Default Work Unit\Enemies\Large Enemy\Large_Enemy_Grunts	
+	2602049768	Healing_Light			\Default Work Unit\Healing_Light	
+	2737219330	Wind_Ambience			\Default Work Unit\Ambience\Main_Menu\Wind_Ambience	
+	2855972596	UI_Hover_Sound			\Default Work Unit\UI\UI_Hover_Sound	
+	2975941020	Large_Enemy_Death			\Default Work Unit\Enemies\Large Enemy\Large_Enemy_Death	
+	3230452249	Small_Enemy_Laugh			\Default Work Unit\Enemies\Small Enemy\Small_Enemy_Laugh	
+	3306210749	Play_Main_Menu			\Default Work Unit\Music\Play_Main_Menu	
+	3395647519	Player_Vocal_Cues			\Default Work Unit\Player\Player_Vocal_Cues	
+	3498111913	Gun_Shoot			\Default Work Unit\Player\Gun_Shoot	
+	3561417964	Small_Enemy_Laugh_Stop			\Default Work Unit\Enemies\Small Enemy\Small_Enemy_Laugh_Stop	
+	3762008648	Play_InGameMusic_Resume			\Default Work Unit\Music\Play_InGameMusic_Resume	
+	3799629626	Play_InGameMusic			\Default Work Unit\Music\Play_InGameMusic	
+	3897667184	Small_Enemy_Death			\Default Work Unit\Enemies\Small Enemy\Small_Enemy_Death	
+	4250807398	Large_Enemy_Attack			\Default Work Unit\Enemies\Large Enemy\Large_Enemy_Attack	
+	4253579710	Ammo_Pickup			\Default Work Unit\Interactables\Ammo_Pickup	
+	4262893814	Crow_Caw			\Default Work Unit\Ambience\Main_Menu\Crow_Caw	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1852808225	Playing			\Default Work Unit\Playing	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Playing			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1240670792	Distance			\Default Work Unit\Distance	
+	2468440487	Sound_Fade			\Default Work Unit\Sound_Fade	
+	2788398400	HealingLight_Fade			\Default Work Unit\HealingLight_Fade	
+
+Effect plug-ins	ID	Name	Type				Notes
+	415841907	Space_Garage	Wwise RoomVerb			
+	753631227	Sewer_Verb	Wwise RoomVerb			
+	1169110113	New_Wwise_Compressor	Wwise Compressor			
+	2689776681	New_Wwise_Parametric_EQ_01	Wwise Parametric EQ			
+	2689776682	New_Wwise_Parametric_EQ_02	Wwise Parametric EQ			
+	2975941020	Large_Enemy_Death	Wwise Parametric EQ			
+	3038837519	Large_Enemy	Wwise RoomVerb			
+	3897667184	Small_Enemy_Death	Wwise Parametric EQ			
+	3900114836	Metal_Hangar	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5294680	Wind_Ambience_Loop	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Wind_Ambience_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Wind_Ambience_Loop		16693544
+	10200255	Flashlight_OnClick_Final_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Flashlight_OnClick_Final_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Flashlight_Toggle\Flashlight_OnClick_Final_02		3458
+	34169155	SmallEnemy_Death_Main_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Death_Main_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Death\Small_Enemy_Death_Main\SmallEnemy_Death_Main_02		396448
+	44963678	PlayerFootsteps_Cloth_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Cloth_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Cloth\PlayerFootsteps_Cloth_03		83200
+	58344488	LargeEnemy_Death_T1	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\LargeEnemy_Death_T1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\LargeEnemy_Death_T1		265376
+	59913664	PlayerFootsteps_Cloth_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Cloth_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Cloth\PlayerFootsteps_Cloth_01		63356
+	61167422	Small_Enemy_Attack_Main_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Small_Enemy_Attack_Main_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Attack\Small_Enemy_Attack_Main_01		162312
+	67396298	UI_Breath_Part_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\UI_Breath_Part_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Breath_Sound\UI_Breath_Part_03		436924
+	73555761	SmallEnemy_Footsteps_F_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Footsteps_F_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Footsteps\SmallEnemy_Footsteps_F_02		71416
+	109779909	PlayerFootsteps_Cloth_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Cloth_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Cloth\PlayerFootsteps_Cloth_02		81732
+	120936648	Small_Enemy_Attack_Grunt_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Small_Enemy_Attack_Grunt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Attack\Attack_Grunts\Small_Enemy_Attack_Grunt_03		25562
+	121940598	UI_Breath_Part_04	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\UI_Breath_Part_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Breath_Sound\UI_Breath_Part_04		444636
+	123198027	LargeEnemy_Footsteps_V2_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\LargeEnemy_Footsteps_V2_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\Large_Enemy_Footsteps\LargeEnemy_Footsteps_V2_01		182164
+	133284972	PlayerFootsteps_Main_04	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Main_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Main\PlayerFootsteps_Main_04		15028
+	141330022	OutOfAmmo_F1	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\OutOfAmmo_F1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\OutOfAmmo_F1		44252
+	141929671	Reload_V2_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Reload_V2_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reload\Reload_V2_01		105036
+	146135435	BigEnemy_Voice_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\BigEnemy_Voice_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\Larg_Enemy_Grunt\Voices\BigEnemy_Voice_02		1675856
+	146852372	SmallEnemy_Death_Breaths_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Death_Breaths_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Death\Small_Enemy_Death_Breath\SmallEnemy_Death_Breaths_03		658592
+	152770591	UI_Breath_Part_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\UI_Breath_Part_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Breath_Sound\UI_Breath_Part_02		438756
+	158183363	SmallEnemy_Footsteps_F_05	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Footsteps_F_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Footsteps\SmallEnemy_Footsteps_F_05		49536
+	168169077	BigEnemy_Attack	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\BigEnemy_Attack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\BigEnemy_Attack		209684
+	175464974	SmallEnemy_Laugh_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Laugh_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Laugh\SmallEnemy_Laugh_02		321186
+	231923219	Flashlight_OnClick_Final_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Flashlight_OnClick_Final_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Flashlight_Toggle\Flashlight_OnClick_Final_03		4062
+	235353200	SmallEnemy_Death_Main_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Death_Main_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Death\Small_Enemy_Death_Main\SmallEnemy_Death_Main_01		396448
+	239821706	Crow_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Crow_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crows\Crow_02		76940
+	243238263	Small_Enemy_Attack_Grunt_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Small_Enemy_Attack_Grunt_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Attack\Attack_Grunts\Small_Enemy_Attack_Grunt_02		56282
+	255269076	UI_Breath_Part_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\UI_Breath_Part_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Breath_Sound\UI_Breath_Part_01		347508
+	281326603	Small_Enemy_Attack_Grunt_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Small_Enemy_Attack_Grunt_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Attack\Attack_Grunts\Small_Enemy_Attack_Grunt_01		34766
+	283923273	Player_Vocal_Cues_04	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Player_Vocal_Cues_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Vocal_Cues\Player_Vocal_Cues_04		171108
+	302496636	BigEnemy_NoVoice_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\BigEnemy_NoVoice_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\Larg_Enemy_Grunt\Voices\BigEnemy_NoVoice_01		705744
+	330329453	Player_Vocal_Cues_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Player_Vocal_Cues_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Vocal_Cues\Player_Vocal_Cues_01		127700
+	333138975	Rat_Stinger_F_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Rat_Stinger_F_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\Rat_Stinger_F_01		39404
+	336908657	PlayerFootsteps_Wet_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Wet_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Water\PlayerFootsteps_Wet_02		62988
+	338695702	Male_Scream_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Male_Scream_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemy_Spawn\Scream\Male\Male_Scream_01		67944
+	349372000	Sewer_Ambience_New_F_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Sewer_Ambience_New_F_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Sewer_Ambience_New_F_01		8051640
+	364846511	BigEnemy_NoVoice_04	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\BigEnemy_NoVoice_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\Larg_Enemy_Grunt\Voices\BigEnemy_NoVoice_04		609424
+	368039709	Bass	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\InGame_Music\InGame_Final\Bass		3148624
+	384425789	PlayerFootsteps_Main_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Main_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Main\PlayerFootsteps_Main_02		14478
+	397126296	Crow_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Crow_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crows\Crow_01		96160
+	409198728	Healing_Sound_bip_1	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Healing_Sound_bip_1_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Healing_Sound_bip_1		2770420
+	415694696	Gunshot_F	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Gunshot_F_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Gunshot_F		279308
+	418192083	SmallEnemy_Footsteps_F_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Footsteps_F_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Footsteps\SmallEnemy_Footsteps_F_03		71620
+	419620355	Rat_Stinger_F_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Rat_Stinger_F_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\Rat_Stinger_F_02		80544
+	424083139	Female_Scream_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Female_Scream_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemy_Spawn\Scream\Female\Female_Scream_01		133792
+	448140753	SmallEnemy_Death_Main_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Death_Main_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Death\Small_Enemy_Death_Main\SmallEnemy_Death_Main_03		396448
+	455758981	Percussion	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Percussion_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\InGame_Music\InGame_Final\Percussion		3410768
+	461217558	SmallEnemy_Laugh_04	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Laugh_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Laugh\SmallEnemy_Laugh_04		308844
+	477350671	Rat_Stinger_F_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Rat_Stinger_F_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\Rat_Stinger_F_03		553204
+	484372149	UI_Main_Part_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\UI_Main_Part_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Main_Sound\UI_Main_Part_01		441216
+	497962356	SmallEnemy_Laugh_05	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Laugh_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Laugh\SmallEnemy_Laugh_05		320056
+	503625794	SmallEnemy_Footsteps_F_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Footsteps_F_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Footsteps\SmallEnemy_Footsteps_F_01		67264
+	509127713	UI_Main_Part_04	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\UI_Main_Part_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Main_Sound\UI_Main_Part_04		444044
+	509852096	SmallEnemy_Death_Breaths_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Death_Breaths_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Death\Small_Enemy_Death_Breath\SmallEnemy_Death_Breaths_02		658592
+	510772159	PlayerFootsteps_Cloth_05	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Cloth_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Cloth\PlayerFootsteps_Cloth_05		94960
+	514424830	PlayerFootsteps_Wet_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Wet_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Water\PlayerFootsteps_Wet_03		71068
+	516612402	BigEnemy_Voice_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\BigEnemy_Voice_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\Larg_Enemy_Grunt\Voices\BigEnemy_Voice_03		1323144
+	524070183	SmallEnemy_Footsteps_F_04	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Footsteps_F_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Footsteps\SmallEnemy_Footsteps_F_04		57656
+	540756320	Player_Vocal_Cues_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Player_Vocal_Cues_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Vocal_Cues\Player_Vocal_Cues_02		127042
+	544086732	Player_Hit	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Player_Hit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit		209620
+	594658176	Arp_Strings	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Arp_Strings_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\InGame_Music\InGame_Middle\Arp_Strings		4141236
+	615563244	Player_Vocal_Cues_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Player_Vocal_Cues_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Vocal_Cues\Player_Vocal_Cues_03		171142
+	617912920	FlashLight_Brighten	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\FlashLight_Brighten_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\FlashLight_Brighten		399820
+	626613179	DownLight_MainMenu_T1	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\DownLight_MainMenu_T1_E532FC3D.wem		\Interactive Music Hierarchy\Default Work Unit\Main Menu\DownLight_MainMenu_T1\DownLight_MainMenu_T1		17472144
+	627043617	LargeEnemy_Footsteps_V2_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\LargeEnemy_Footsteps_V2_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\Large_Enemy_Footsteps\LargeEnemy_Footsteps_V2_03		185084
+	639095602	SmallEnemy_Death_Breaths_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Death_Breaths_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Death\Small_Enemy_Death_Breath\SmallEnemy_Death_Breaths_01		527520
+	681894565	BigEnemy_NoVoice_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\BigEnemy_NoVoice_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\Larg_Enemy_Grunt\Voices\BigEnemy_NoVoice_02		639596
+	687504304	RoundChange_Stinger_1	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\RoundChange_Stinger_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stingers\RoundChange_Stinger_1		1059736
+	691095402	PlayerFootsteps_Main_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Main_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Main\PlayerFootsteps_Main_03		10068
+	696586800	Flashlight_OnClick_Final_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Flashlight_OnClick_Final_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Flashlight_Toggle\Flashlight_OnClick_Final_01		3734
+	739677818	BigEnemy_Voice_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\BigEnemy_Voice_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\Larg_Enemy_Grunt\Voices\BigEnemy_Voice_01		1124692
+	745451864	PlayerFootsteps_Main_05	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Main_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Main\PlayerFootsteps_Main_05		16132
+	753782055	Female_Scream_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Female_Scream_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemy_Spawn\Scream\Female\Female_Scream_02		133812
+	755612802	UI_Main_Part_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\UI_Main_Part_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Main_Sound\UI_Main_Part_02		439860
+	767726135	Male_Scream_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Male_Scream_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemy_Spawn\Scream\Male\Male_Scream_02		129044
+	783892982	GameOver_Music	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\GameOver_Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameOver_Music\GameOver_Music		3072144
+	793120761	Small_Enemy_Attack_Grunt_04	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Small_Enemy_Attack_Grunt_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Attack\Attack_Grunts\Small_Enemy_Attack_Grunt_04		37658
+	827714307	PlayerFootsteps_Cloth_04	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Cloth_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Cloth\PlayerFootsteps_Cloth_04		84672
+	835078885	PlayerFootsteps_Wet_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Wet_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Water\PlayerFootsteps_Wet_01		55272
+	883460431	Strings _Test	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Strings _Test_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\InGame_Music\InGame_Final\Strings _Test		3804176
+	909813545	UI_Main_Part_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\UI_Main_Part_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Main_Sound\UI_Main_Part_03		437472
+	909923145	Spawn_Main	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Spawn_Main_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemy_Spawn\Spawn_Main		527472
+	911734441	Secret_Door_Open	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Secret_Door_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stingers\Secret_Door_Open		920688
+	914296452	Male_Scream_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Male_Scream_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemy_Spawn\Scream\Male\Male_Scream_03		67396
+	935692605	SmallEnemy_Laugh_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Laugh_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Laugh\SmallEnemy_Laugh_01		228724
+	956901904	BigEnemy_NoVoice_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\BigEnemy_NoVoice_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\Larg_Enemy_Grunt\Voices\BigEnemy_NoVoice_03		670648
+	964351560	Intro_Synth	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Synth_Test_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\InGame_Music\InGame_Intro\Intro_Synth		3542032
+	966295376	PlayerFootsteps_Main_01	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\PlayerFootsteps_Main_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps\Player_Footsteps_Main\PlayerFootsteps_Main_01		14848
+	970301744	LargeEnemy_Footsteps_V2_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\LargeEnemy_Footsteps_V2_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\Large_Enemy_Footsteps\LargeEnemy_Footsteps_V2_02		182164
+	971748959	DownLight_InGame_T1	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\DownLight_InGame_T1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\InGame_Music\InGame_Orchestra\DownLight_InGame_T1		19397812
+	972283037	SmallEnemy_Laugh_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\SmallEnemy_Laugh_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Small_Enemy\Small_Enemy_Laugh\SmallEnemy_Laugh_03		203278
+	978542759	Female_Scream_03	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Female_Scream_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemy_Spawn\Scream\Female\Female_Scream_03		139096
+	997529174	GameOver_Stinger_F	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\GameOver_Stinger_F_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stingers\GameOver_Stinger_F		943376
+	999530911	CryFemale_SFXB_2023	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\CryFemale_SFXB.2023_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\CryFemale_SFXB_2023		2019100
+	1000178330	Guitar	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Guitar_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\InGame_Music\InGame_Final\Guitar		1736994
+	1014441594	Reload_V2_02	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Reload_V2_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reload\Reload_V2_02		146996
+	1031864434	Chior	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Chior_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\InGame_Music\InGame_Middle\Chior		3072144
+	1069374550	BigEnemy_Loop	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\BigEnemy_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Large_Enemy\Larg_Enemy_Grunt\BigEnemy_Loop		6591520
+	1071149357	Rat_Stinger_F_04	C:\Users\Connor Lee\DownLight\DownLight_WwiseProject\.cache\Mac\SFX\Rat_Stinger_F_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rats\Rat_Stinger_F_04		242028
+
