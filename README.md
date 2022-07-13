@@ -1,4 +1,4 @@
-<div style="text-align: right"> Downlight </div>
+<div style="text-align: center"> Downlight </div>
 
 This is a 2D side scroller that I made as a way to improve my C# coding and game development skills. 
 
