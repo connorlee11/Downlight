@@ -7,11 +7,17 @@
 <div style="text-align: center">This is a 2D side scroller that I made as a way to improve my C# coding and game development skills.</div>
  <br />
 
- <p align="center">
-  <img src="https://img.shields.io/github/last-commit/connorlee11/Downlight">
-</p>
+ <p align="center"><img src="https://img.shields.io/github/last-commit/connorlee11/Downlight"> <img src="https://img.shields.io/github/directory-file-count/connorlee11/Downlight"> <img src="https://img.shields.io/discord/996873491779424276?color=red&label=Discord"></p> 
+ <br />
 
  <p align="center">
-  <img src="https://img.shields.io/website?url=https%3A%2F%2Fconnorlee1111.wixsite.com%2Fwebsite">
+  <img src="https://imgur.com/kjpO2Wb">
 </p>
+
+ <h3 align="center">Download</h3>
+ If you want to give the game a try you can download it from this drive 
+
+ 
+
+
 
