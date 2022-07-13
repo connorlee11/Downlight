@@ -27,7 +27,10 @@
 <h2 align="left">Flashlight Toggle</h2>
 <br />
 
-<div style="text-align: left">The game features a flashlight brighten feature that slows down enemies when left-click is held down. While the light is in athe brightened state it slowly drains the energy bar on the bottom left corner of the HUD. This feature was inspired by the flashlight mechanic from the game Alan Wake. As the game progresses in rounds, the need to conserve and use the energy wisely is paramount.  
+<div style="text-align: left">The game features a flashlight brighten feature that slows down enemies when left-click is held down. While the light is in athe brightened state it slowly drains the energy bar on the bottom left corner of the HUD. This feature was inspired by the flashlight mechanic from the game Alan Wake. As the game progresses in rounds, the need to conserve and use the energy wisely is paramount.
+<br />
+
+
 
 
  
