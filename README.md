@@ -1,6 +1,4 @@
-<p align="center">
-    # Downlight
-</p>
+<center><h1> Downlight</h1></center>
 
 This is a 2D side scroller that I made as a way to improve my C# coding and game development skills. 
 
