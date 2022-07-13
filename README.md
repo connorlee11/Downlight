@@ -8,4 +8,4 @@
 
 ![Game Title.](DownLight/Pictures/Downlight_Title25.png)
 
-<img src="Downlight/Downlight/Pictures/Downlight_Title25.png">
+<img src="Downlight/Pictures/Downlight_Title25.png">
