@@ -27,7 +27,27 @@
 <h2 align="left">Flashlight Toggle</h2>
 <br />
 
-<div style="text-align: left">The game features a flashlight brighten feature that slows down enemies when left-click is held down. While the light is in athe brightened state it slowly drains the energy bar on the bottom left corner of the HUD. This feature was inspired by the flashlight mechanic from the game Alan Wake. As the game progresses in rounds, the need to conserve and use the energy wisely is paramount.
+<div style="text-align: left">The game features a flashlight brighten feature that slows down enemies when left-click is held down. While the light is in the brightened state it slowly drains the energy bar on the bottom left corner of the HUD. This feature was inspired by the flashlight mechanic from the game Alan Wake. As the game progresses in rounds, the need to conserve and use the energy wisely is paramount.
+<br />
+
+<p align="center">
+  <img src="/Documents/GitHub/Downlight/DownLight/Pictures/LightBrighten.png">
+</p>
+
+![Please](Downlight/DownLight/Pictures/LightBrighten.png)
+
+ <h2 align="left">Healing Light</h2>
+<br />
+
+<div style="text-align: left">Another mechanic that was inspired by Alan Wake was the healing mechanic. The player begins to recharge health as long as they are standing in the light. I achieved this by adding a box collider component set as a trigger to the Lantern asset. When the trigger senses an object with the tag "Player" it starts the coroutine named "Heal". 
+<br />
+<br />
+
+
+ <h2 align="left">RNG Ammo Drops</h2>
+<br />
+
+<div style="text-align: left">Downlight is as much a game of luck as it is a game of skill. The enemies have a 1/4 chance of dropping ammo when you kill them. This mechanic makes conserving ammo a necesity if you plan on getting anywhere past round five. If your RNG is bad then you are forced to rely on the two ammo spawns on either side of the map. These only respawn every thirty seconds however.   
 <br />
 
 
