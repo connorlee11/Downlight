@@ -26,15 +26,15 @@
 <h1 align="center">Game Mechanics</h1>
 <h2 align="left">Flashlight Toggle</h2>
 <br />
+<br />
 
 <div style="text-align: left">The game features a flashlight brighten feature that slows down enemies when left-click is held down. While the light is in the brightened state it slowly drains the energy bar on the bottom left corner of the HUD. This feature was inspired by the flashlight mechanic from the game Alan Wake. As the game progresses in rounds, the need to conserve and use the energy wisely is paramount.
 <br />
 
 <p align="center">
-  <img src="/Documents/GitHub/Downlight/DownLight/Pictures/LightBrighten.png">
+  <img src="../Downlight/DownLight/Pictures/Small_01.png">
 </p>
 
-![Please](Downlight/DownLight/Pictures/LightBrighten.png)
 
  <h2 align="left">Healing Light</h2>
 <br />
@@ -43,14 +43,23 @@
 <br />
 <br />
 
+<p align="center">
+  <img src="../Downlight/DownLight/Pictures/HealingZone_Small.png">
+</p>
+
 
  <h2 align="left">RNG Ammo Drops</h2>
 <br />
 
-<div style="text-align: left">Downlight is as much a game of luck as it is a game of skill. The enemies have a 1/4 chance of dropping ammo when you kill them. This mechanic makes conserving ammo a necesity if you plan on getting anywhere past round five. If your RNG is bad then you are forced to rely on the two ammo spawns on either side of the map. These only respawn every thirty seconds however.   
+<div style="text-align: left">Downlight is as much a game of luck as it is a game of skill. The enemies have a 1/4 chance of dropping ammo when you kill them. This mechanic makes conserving ammo a necessity if you plan on getting anywhere past round five. If your RNG is bad then you are forced to rely on the two ammo spawns on either side of the map. These only respawn every thirty seconds however.   
+<br />
 <br />
 
+<p align="center"><img src="../Downlight/DownLight/Pictures/1out of 4.png"></p> 
+<p align="center"><img src="../Downlight/DownLight/Pictures/Ammo_Small.png"></p>
 
+
+<h1 align="center">Video</h1>
 
 
  
