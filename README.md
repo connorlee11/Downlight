@@ -51,7 +51,7 @@
  <h2 align="left">RNG Ammo Drops</h2>
 <br />
 
-<div style="text-align: left">Downlight is as much a game of luck as it is a game of skill. The enemies have a 1/4 chance of dropping ammo when you kill them. This mechanic makes conserving ammo a necessity if you plan on getting anywhere past round five. If your RNG is bad then you are forced to rely on the two ammo spawns on either side of the map. These only respawn every thirty seconds however.  
+<div style="text-align: left">Downlight is as much a game of luck as it is a game of skill. The enemies have a 1/4 chance of dropping ammo when you kill them. This mechanic makes conserving ammo a necessity if you plan on getting anywhere past round five. If your RNG is bad then you are forced to rely on the two ammo spawns on either side of the map. These only respawn every thirty seconds however.   
 <br />
 <br />
 
@@ -61,7 +61,47 @@
 
 <h1 align="center">Video</h1>
 
+```c#
+void Update()
+    {
+        if (Input.GetButtonDown("Fire2") && StaminaBar.instance.currentStamina > 1)
+        {
+            brightenSound.Post(gameObject);
+            brighten = true;
+            //Debug.Log("Trigger 01");
+            light.pointLightOuterAngle = 55;
+            StartCoroutine(lightUp());
+            AkSoundEngine.SetRTPCValue("LightBrighten", 100);
+            light.intensity = 11;
+            //worldLight.intensity = 0;
 
+        } else if(Input.GetButtonUp("Fire2") || StaminaBar.instance.currentStamina <= 0)
+            {
+                brightenSound.Stop(gameObject);
+                brighten = false;
+                //Debug.Log("Trigger 02");
+                light.pointLightOuterAngle = 70;
+                Bright.enabled = false;
+                AkSoundEngine.SetRTPCValue("LightBrighten", 0);
+                light.intensity = 3;
+                //worldLight.intensity = 0.4f;
+            }   
+
+            if (Input.GetMouseButton(1))
+            {
+                StartCoroutine(StaminaBar.instance.UseStamina(1));
+                //Debug.Log("Trigger 03");
+            }  
+
+            if (brighten = true && StaminaBar.instance.currentStamina == 10)
+            {
+                breakSound.Post(gameObject);
+            }
+
+    }
+```
+
+<h1 align="center">Video</h1>
 
  
 
