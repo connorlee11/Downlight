@@ -122,52 +122,29 @@ void Update()
 <br />
 <br />
 
-<p align="center"><img src="../Downlight/DownLight/Pictures/1out of 4.png"></p> 
-<p align="center"><img src="../Downlight/DownLight/Pictures/Ammo_Small.png"></p>
-
-
-<h1 align="center">Video</h1>
+```c#
+const float dropRate = 1f / 4f;
+```
 
 ```c#
- void OnTriggerStay2D(Collider2D collision)
+ public void Die ()
     {
-        if (collision.tag == "Player")
+        stop.Stop(gameObject);
+        deathSound.Post(gameObject);
+        Instantiate (deathEffect, deathEffectLocation.position, deathEffectLocation.rotation);
+        Destroy(gameObject);
+        if (Random.Range(0f, 1f) <= dropRate)
         {
-            Debug.Log("Entered Light!");
-            StartCoroutine(Heal());
+             Instantiate (itemPrefab, deathLocation.position, deathLocation.rotation);
         }
-    }
-
-     void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-        {
-            Debug.Log("Left the Light!");
-            StopCoroutine(Heal());
-        }
-    }
-
-    IEnumerator Heal()
-    {
-        if (playerHealth.health < 100f)
-        {
-            playerHealth.health += 0.1f;
-            yield return new WaitForSeconds(Time.deltaTime);
-            healthBar.SetHealth (playerHealth.health);
-        }
-        
     }
 ```
 
+
 <h1 align="center">Video</h1>
 
-<p align="center">
-  <img src="../Downlight/DownLight/Pictures/Small_01.png">
-</p>
 
-<p align="center">
-  <img src="../Downlight/DownLight/Pictures/HealingZone_Small.png">
-</p>
+
  
 
 
