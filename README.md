@@ -26,40 +26,12 @@
 <h1 align="center">Game Mechanics</h1>
 <h2 align="left">Flashlight Toggle</h2>
 <br />
-<br />
+
 
 <div style="text-align: left">The game features a flashlight brighten feature that slows down enemies when left-click is held down. While the light is in the brightened state it slowly drains the energy bar on the bottom left corner of the HUD. This feature was inspired by the flashlight mechanic from the game Alan Wake. As the game progresses in rounds, the need to conserve and use the energy wisely is paramount.
 <br />
-
-<p align="center">
-  <img src="../Downlight/DownLight/Pictures/Small_01.png">
-</p>
-
-
- <h2 align="left">Healing Light</h2>
 <br />
 
-<div style="text-align: left">Another mechanic that was inspired by Alan Wake was the healing mechanic. The player begins to recharge health as long as they are standing in the light. I achieved this by adding a box collider component set as a trigger to the Lantern asset. When the trigger senses an object with the tag "Player" it starts the coroutine named "Heal". 
-<br />
-<br />
-
-<p align="center">
-  <img src="../Downlight/DownLight/Pictures/HealingZone_Small.png">
-</p>
-
-
- <h2 align="left">RNG Ammo Drops</h2>
-<br />
-
-<div style="text-align: left">Downlight is as much a game of luck as it is a game of skill. The enemies have a 1/4 chance of dropping ammo when you kill them. This mechanic makes conserving ammo a necessity if you plan on getting anywhere past round five. If your RNG is bad then you are forced to rely on the two ammo spawns on either side of the map. These only respawn every thirty seconds however.   
-<br />
-<br />
-
-<p align="center"><img src="../Downlight/DownLight/Pictures/1out of 4.png"></p> 
-<p align="center"><img src="../Downlight/DownLight/Pictures/Ammo_Small.png"></p>
-
-
-<h1 align="center">Video</h1>
 
 ```c#
 void Update()
@@ -73,7 +45,7 @@ void Update()
             StartCoroutine(lightUp());
             AkSoundEngine.SetRTPCValue("LightBrighten", 100);
             light.intensity = 11;
-            //worldLight.intensity = 0;
+            
 
         } else if(Input.GetButtonUp("Fire2") || StaminaBar.instance.currentStamina <= 0)
             {
@@ -84,7 +56,7 @@ void Update()
                 Bright.enabled = false;
                 AkSoundEngine.SetRTPCValue("LightBrighten", 0);
                 light.intensity = 3;
-                //worldLight.intensity = 0.4f;
+                
             }   
 
             if (Input.GetMouseButton(1))
@@ -101,8 +73,101 @@ void Update()
     }
 ```
 
+
+
+ <h2 align="left">Healing Light</h2>
+<br />
+
+<div style="text-align: left">Another mechanic that was inspired by Alan Wake was the healing mechanic. The player begins to recharge health as long as they are standing in the light. I achieved this by adding a box collider component set as a trigger to the Lantern asset. When the trigger senses an object with the tag "Player" it starts the coroutine named "Heal". 
+<br />
+<br />
+
+
+```c#
+ void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            Debug.Log("Entered Light!");
+            StartCoroutine(Heal());
+        }
+    }
+
+     void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            Debug.Log("Left the Light!");
+            StopCoroutine(Heal());
+        }
+    }
+
+    IEnumerator Heal()
+    {
+        if (playerHealth.health < 100f)
+        {
+            playerHealth.health += 0.1f;
+            yield return new WaitForSeconds(Time.deltaTime);
+            healthBar.SetHealth (playerHealth.health);
+        }
+        
+    }
+```
+
+
+ <h2 align="left">RNG Ammo Drops</h2>
+<br />
+
+<div style="text-align: left">Downlight is as much a game of luck as it is a game of skill. The enemies have a 1/4 chance of dropping ammo when you kill them. This mechanic makes conserving ammo a necessity if you plan on getting anywhere past round five. If your RNG is bad then you are forced to rely on the two ammo spawns on either side of the map. These only respawn every thirty seconds however.   
+<br />
+<br />
+
+<p align="center"><img src="../Downlight/DownLight/Pictures/1out of 4.png"></p> 
+<p align="center"><img src="../Downlight/DownLight/Pictures/Ammo_Small.png"></p>
+
+
 <h1 align="center">Video</h1>
 
+```c#
+ void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            Debug.Log("Entered Light!");
+            StartCoroutine(Heal());
+        }
+    }
+
+     void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            Debug.Log("Left the Light!");
+            StopCoroutine(Heal());
+        }
+    }
+
+    IEnumerator Heal()
+    {
+        if (playerHealth.health < 100f)
+        {
+            playerHealth.health += 0.1f;
+            yield return new WaitForSeconds(Time.deltaTime);
+            healthBar.SetHealth (playerHealth.health);
+        }
+        
+    }
+```
+
+<h1 align="center">Video</h1>
+
+<p align="center">
+  <img src="../Downlight/DownLight/Pictures/Small_01.png">
+</p>
+
+<p align="center">
+  <img src="../Downlight/DownLight/Pictures/HealingZone_Small.png">
+</p>
  
 
 
