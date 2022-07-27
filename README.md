@@ -141,7 +141,18 @@ const float dropRate = 1f / 4f;
 ```
 
 
-<h1 align="center">Video</h1>
+<!---<h1 align="center">Video</h1>
+<br />
+
+<div style="text-align: left">Here is a video talking about my main takeways from the project.
+
+[![My Video](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/yGb0p3pPT5Y "Video Title")--->
+
+ 
+
+
+
+
 
 
 
